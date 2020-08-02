@@ -15,7 +15,9 @@ Software:
 2. Python module sys is needed to terminate the program when there is an error.
 3. Python module collections is needed to count repeats in the sequences.
 
-User inputs:
+Input file: A multi-FASTA file containing multiple DNA sequences in the FASTA format. Two examples (dna2.fasta and dna.example.fasta) are provided.
+
+Configurations:
 1. readingframe.
 2. length_repeat.
 3. If the user wants to find out the length of the longest open reading frame in a specific sequence, they must provide the identifier or at least a substring of it.
