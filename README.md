@@ -1,7 +1,7 @@
 # MFASTA_analysis
 This program extracts insights from multi-FASTA files.
 
-How can it do?
+What can it do?
 1. Count the number of FASTA records in the file.
 2. Find out how long the sequences in the file are.
 3. Characterise the longest and shortest sequences in the file, including the lengths and identifiers.
@@ -18,6 +18,6 @@ Software:
 Input file: A multi-FASTA file containing multiple DNA sequences in the FASTA format. Two examples (dna2.fasta and dna.example.fasta) are provided.
 
 Configurations:
-1. readingframe.
-2. length_repeat.
+1. readingframe (default is 3).
+2. length_repeat (default is 7).
 3. If the user wants to find out the length of the longest open reading frame in a specific sequence, they must provide the identifier or at least a substring of it.
